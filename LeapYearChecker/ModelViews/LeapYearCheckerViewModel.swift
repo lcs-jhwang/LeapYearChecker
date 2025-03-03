@@ -10,6 +10,9 @@ import Foundation
 @Observable
 class LeapYearCheckerViewModel {
     //MARK: Stored properties
+    var resultHistory: [LeapYearChecker] = []
+
+
     var providedYear: String
     
     var recoverySuggestion: String = ""
@@ -26,6 +29,12 @@ class LeapYearCheckerViewModel {
         
     }
     
+    func savedResult(){
+        if let leapYearChecker = self.leapYearChecker{
+            self.resultHistory.insert(leapYearChecker, at: 0)
+
+        }
+    }
 
     
     init(providedYear: String = "",
