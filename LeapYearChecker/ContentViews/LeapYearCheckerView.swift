@@ -29,7 +29,15 @@ struct LeapYearCheckerView: View {
             TextField("Input the year here", text: $viewModel.providedYear)
                 .padding(5)
 
- 
+            Button {
+                viewModel.savedResult()
+                // DEBUG: Show how many items are in the resultHistory array
+                print("There are \(viewModel.resultHistory.count) elements in the resultHistory array.")
+            } label: {
+                Text("Save")
+            }
+            .buttonStyle(.borderedProminent)
+            .padding(.bottom)
             
             Spacer()
             
