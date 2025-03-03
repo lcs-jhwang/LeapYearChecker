@@ -28,8 +28,8 @@ class LeapYearCheckerViewModel {
     
 
     
-    init(providedYear: String,
-         recoverySuggestion: String
+    init(providedYear: String = "",
+         recoverySuggestion: String = ""
     ){
         self.providedYear = providedYear
         self.recoverySuggestion = recoverySuggestion
