@@ -39,6 +39,12 @@ struct LeapYearCheckerView: View {
             .buttonStyle(.borderedProminent)
             .padding(.bottom)
             
+            Text("History")
+            
+            List(viewModel.resultHistory){ priorResult in
+                HistoryView(leapHistoryView: priorResult)
+            }
+            
             Spacer()
             
         }
