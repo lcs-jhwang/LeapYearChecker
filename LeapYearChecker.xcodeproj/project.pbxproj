@@ -11,7 +11,8 @@
 		312EE2302D76386E00C287F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 312EE22B2D76386E00C287F8 /* Assets.xcassets */; };
 		312EE2312D76386E00C287F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312EE22C2D76386E00C287F8 /* ContentView.swift */; };
 		312EE2322D76386E00C287F8 /* LeapYearCheckerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312EE22D2D76386E00C287F8 /* LeapYearCheckerApp.swift */; };
-		312EE2372D7638A200C287F8 /* Untitled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312EE2362D76389E00C287F8 /* Untitled.swift */; };
+		312EE2372D7638A200C287F8 /* LeapYearChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312EE2362D76389E00C287F8 /* LeapYearChecker.swift */; };
+		312EE2392D763C8000C287F8 /* LeapYearCheckerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312EE2382D763C6B00C287F8 /* LeapYearCheckerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +21,8 @@
 		312EE22B2D76386E00C287F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		312EE22C2D76386E00C287F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		312EE22D2D76386E00C287F8 /* LeapYearCheckerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeapYearCheckerApp.swift; sourceTree = "<group>"; };
-		312EE2362D76389E00C287F8 /* Untitled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Untitled.swift; sourceTree = "<group>"; };
+		312EE2362D76389E00C287F8 /* LeapYearChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeapYearChecker.swift; sourceTree = "<group>"; };
+		312EE2382D763C6B00C287F8 /* LeapYearCheckerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeapYearCheckerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +76,7 @@
 		312EE2332D76387300C287F8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				312EE2362D76389E00C287F8 /* Untitled.swift */,
+				312EE2362D76389E00C287F8 /* LeapYearChecker.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -82,6 +84,7 @@
 		312EE2342D76387700C287F8 /* ModelViews */ = {
 			isa = PBXGroup;
 			children = (
+				312EE2382D763C6B00C287F8 /* LeapYearCheckerViewModel.swift */,
 			);
 			path = ModelViews;
 			sourceTree = "<group>";
@@ -167,7 +170,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				312EE2372D7638A200C287F8 /* Untitled.swift in Sources */,
+				312EE2372D7638A200C287F8 /* LeapYearChecker.swift in Sources */,
+				312EE2392D763C8000C287F8 /* LeapYearCheckerViewModel.swift in Sources */,
 				312EE2312D76386E00C287F8 /* ContentView.swift in Sources */,
 				312EE2322D76386E00C287F8 /* LeapYearCheckerApp.swift in Sources */,
 			);
