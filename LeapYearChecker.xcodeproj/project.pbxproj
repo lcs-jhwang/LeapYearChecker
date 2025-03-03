@@ -6,17 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		312EE22F2D76386E00C287F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 312EE2292D76386E00C287F8 /* Preview Assets.xcassets */; };
+		312EE2302D76386E00C287F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 312EE22B2D76386E00C287F8 /* Assets.xcassets */; };
+		312EE2312D76386E00C287F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312EE22C2D76386E00C287F8 /* ContentView.swift */; };
+		312EE2322D76386E00C287F8 /* LeapYearCheckerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312EE22D2D76386E00C287F8 /* LeapYearCheckerApp.swift */; };
+		312EE2372D7638A200C287F8 /* Untitled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312EE2362D76389E00C287F8 /* Untitled.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		312EE2182D76386400C287F8 /* LeapYearChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeapYearChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		312EE2292D76386E00C287F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		312EE22B2D76386E00C287F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		312EE22C2D76386E00C287F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		312EE22D2D76386E00C287F8 /* LeapYearCheckerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeapYearCheckerApp.swift; sourceTree = "<group>"; };
+		312EE2362D76389E00C287F8 /* Untitled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Untitled.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		312EE21A2D76386400C287F8 /* LeapYearChecker */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LeapYearChecker;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		312EE2152D76386400C287F8 /* Frameworks */ = {
@@ -32,7 +37,7 @@
 		312EE20F2D76386400C287F8 = {
 			isa = PBXGroup;
 			children = (
-				312EE21A2D76386400C287F8 /* LeapYearChecker */,
+				312EE22E2D76386E00C287F8 /* LeapYearChecker */,
 				312EE2192D76386400C287F8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +48,50 @@
 				312EE2182D76386400C287F8 /* LeapYearChecker.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		312EE22A2D76386E00C287F8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				312EE2292D76386E00C287F8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		312EE22E2D76386E00C287F8 /* LeapYearChecker */ = {
+			isa = PBXGroup;
+			children = (
+				312EE2332D76387300C287F8 /* Models */,
+				312EE2342D76387700C287F8 /* ModelViews */,
+				312EE22A2D76386E00C287F8 /* Preview Content */,
+				312EE22B2D76386E00C287F8 /* Assets.xcassets */,
+				312EE2352D76388D00C287F8 /* ContentViews */,
+				312EE22D2D76386E00C287F8 /* LeapYearCheckerApp.swift */,
+			);
+			path = LeapYearChecker;
+			sourceTree = "<group>";
+		};
+		312EE2332D76387300C287F8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				312EE2362D76389E00C287F8 /* Untitled.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		312EE2342D76387700C287F8 /* ModelViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelViews;
+			sourceTree = "<group>";
+		};
+		312EE2352D76388D00C287F8 /* ContentViews */ = {
+			isa = PBXGroup;
+			children = (
+				312EE22C2D76386E00C287F8 /* ContentView.swift */,
+			);
+			path = ContentViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +108,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				312EE21A2D76386400C287F8 /* LeapYearChecker */,
 			);
 			name = LeapYearChecker;
 			packageProductDependencies = (
@@ -109,6 +155,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				312EE22F2D76386E00C287F8 /* Preview Assets.xcassets in Resources */,
+				312EE2302D76386E00C287F8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +167,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				312EE2372D7638A200C287F8 /* Untitled.swift in Sources */,
+				312EE2312D76386E00C287F8 /* ContentView.swift in Sources */,
+				312EE2322D76386E00C287F8 /* LeapYearCheckerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
